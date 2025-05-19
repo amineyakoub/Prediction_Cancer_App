@@ -1,31 +1,52 @@
-🧠 Breast Cancer Prediction App
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Breast Cancer Prediction App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 2rem;
+    }
+    pre {
+      background-color: #f4f4f4;
+      padding: 1rem;
+      overflow-x: auto;
+    }
+    blockquote {
+      background-color: #fff3cd;
+      border-left: 6px solid #ffeeba;
+      padding: 1rem;
+      margin: 1rem 0;
+    }
+  </style>
+</head>
+<body>
 
-This Streamlit web application predicts whether a breast mass is benign or malignant based on cytological measurements. It uses a machine learning model trained on the Breast Cancer Wisconsin dataset.
+  <h1>🧠 Breast Cancer Prediction App</h1>
 
-✨ Features
+  <p>This Streamlit web application predicts whether a breast mass is <strong>benign or malignant</strong> based on cytological measurements. It uses a machine learning model trained on the Breast Cancer Wisconsin dataset.</p>
 
-Interactive Sidebar: Manually adjust 30 cytology-based features using sliders.
+  <h2>✨ Features</h2>
+  <ul>
+    <li><strong>Interactive Sidebar</strong>: Manually adjust 30 cytology-based features using sliders.</li>
+    <li><strong>Radar Chart Visualization</strong>: Visualizes mean, standard error, and worst-case values.</li>
+    <li><strong>ML-Powered Prediction</strong>: Classifies the mass and provides benign/malignant probability.</li>
+    <li><strong>Styled Output</strong>: Diagnosis results are color-coded for easy interpretation.</li>
+    <li><strong>Model Training Script</strong>: Includes script to train and export the model and scaler.</li>
+  </ul>
 
-Radar Chart Visualization: Visualizes mean, standard error, and worst-case values.
+  <h2>🧪 Machine Learning Details</h2>
+  <ul>
+    <li><strong>Model</strong>: Logistic Regression</li>
+    <li><strong>Data</strong>: Breast Cancer Wisconsin (Diagnostic) dataset</li>
+    <li><strong>Preprocessing</strong>: Features scaled using StandardScaler</li>
+    <li><strong>Evaluation</strong>: Achieves high accuracy on test set</li>
+  </ul>
 
-ML-Powered Prediction: Classifies the mass and provides benign/malignant probability.
-
-Styled Output: Diagnosis results are color-coded for easy interpretation.
-
-Model Training Script: Includes script to train and export the model and scaler.
-
-🧪 Machine Learning Details
-
-Model: Logistic Regression
-
-Data: Breast Cancer Wisconsin (Diagnostic) dataset
-
-Preprocessing: Features scaled using StandardScaler
-
-Evaluation: Achieves high accuracy on test set
-
-📁 Project Structure
-
+  <h2>📁 Project Structure</h2>
+  <pre>
 App_Predict_Cancer/
 │
 ├── app/
@@ -45,10 +66,15 @@ App_Predict_Cancer/
 ├── Image_results/
 │   ├── exemple_1.png
 │   └── exemple_2.png
+  </pre>
 
-⚠️ Disclaimer
+  <h2>⚠️ Disclaimer</h2>
+  <blockquote>
+    This app is intended for <strong>educational or assistive purposes only</strong>. It should not be used as a substitute for professional medical diagnosis.
+  </blockquote>
 
-This app is intended for educational or assistive purposes only. It should not be used as a substitute for professional medical diagnosis.
+  <hr>
+  <p>Feel free to contribute or modify for personal or research use.</p>
 
-Feel free to contribute or modify for personal or research use.
-
+</body>
+</html>
