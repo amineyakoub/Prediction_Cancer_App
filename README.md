@@ -1,29 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Breast Cancer Prediction App</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 2rem;
-    }
-    pre {
-      background-color: #f4f4f4;
-      padding: 1rem;
-      overflow-x: auto;
-    }
-    blockquote {
-      background-color: #fff3cd;
-      border-left: 6px solid #ffeeba;
-      padding: 1rem;
-      margin: 1rem 0;
-    }
-  </style>
-</head>
-<body>
-
   <h1>🧠 Breast Cancer Prediction App</h1>
 
   <p>This Streamlit web application predicts whether a breast mass is <strong>benign or malignant</strong> based on cytological measurements. It uses a machine learning model trained on the Breast Cancer Wisconsin dataset.</p>
@@ -67,6 +41,14 @@ App_Predict_Cancer/
 │   ├── exemple_1.png
 │   └── exemple_2.png
   </pre>
+
+  <h2>📷 Image Examples</h2>
+
+  <h3>Example of Benign Prediction</h3>
+  <img src="https://github.com/user-attachments/assets/a373ae7b-f00c-43c7-af71-da27677cd5ba" alt="Example 1 - Benign Prediction" width="600">
+
+  <h3>Example of Malignant Prediction</h3>
+  <img src="https://github.com/user-attachments/assets/9f794a0b-1892-4175-8495-b57a8dde90ee" alt="Example 2 - Malignant Prediction" width="600">
 
   <h2>⚠️ Disclaimer</h2>
   <blockquote>
